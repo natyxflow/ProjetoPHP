@@ -20,6 +20,6 @@ $mensagem = $_POST['mensagem'];
     
     echo "<script>
         alert('A sua mensagem foi enviada com sucesso!')
-        window.location.href= 'index.html'
+        window.location.href= 'index.php'
     </script>";
 

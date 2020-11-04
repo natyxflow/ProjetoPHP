@@ -6,12 +6,11 @@
         <link rel="stylesheet" href="./CSS/estilo.css">
     </head>
     <body>
-        <nav class="menu">
-            <a href="index.html"><img width="100px" src="./Imagens/Logo.jpeg" alt="FullStack Eletro"></a>
-            <a href="Produtos.html">Produtos</a>
-            <a href="Loja.html">Nossas Lojas</a>
-            <a href="Contato.php">Fale Conosco</a>
-        </nav>
+        <?php
+    
+            include('menu.html');
+
+        ?>
         <h2>Nossas Lojas</h2>
         <hr>
         <table border="0" width="100%" cellpadding="20">
